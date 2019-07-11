@@ -24,5 +24,8 @@ int main(){
   if(sum > 7) printf("\n%s won!\n", name);
   else printf("\n%s lost...\n", name);
 
+  if(sum == 12) printf("\nThe total value is maximum!\n");
+  if(sum == 2) printf("\nThe total value is minimum.\n");
+
   return 0;
 }
