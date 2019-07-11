@@ -4,6 +4,12 @@
 
 int main(){
   int i, num, sum = 0;
+  char name[20];
+
+  printf("What is your name?\n");
+  printf("> ");
+  scanf("%s", name);
+  printf("Hello, %s!\n\n", name);
 
   srand((unsigned int)time(NULL));
 
